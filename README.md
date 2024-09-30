@@ -13,3 +13,11 @@ hdfs dfs -put *.csv /bai3
 hdfs dfs -put *.csv /bai4
 hdfs dfs -put *.csv /bai5
 ```
+
+Mở Intellij, nhìn vào thanh công cụ bên phải có chữ m(maven), ấn dô nó
+
+![](./img.png)
+
+Rồi ấn dô cái khoanh đỏ, ấn `mvn clean`, rồi tiếp như vậy, ấy `mvn install` để tạo jar file ở `target/`
+
+Rồi dô readme từng bài copy lệnh chạy là xong
