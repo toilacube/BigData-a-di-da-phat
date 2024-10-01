@@ -18,27 +18,16 @@ public class Bai1a {
         private Text url = new Text();
         private IntWritable timeSpent = new IntWritable();
 
-        // Change IntWritable key to Object (or LongWritable)
         protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-            // Split the line by commas (assuming it's a CSV file)
+
             String[] fields = value.toString().split(",");
 
             if (fields.length == 2) {
-                String urlStr = fields[0].trim(); // URL
-                Integer timeSpentValue;
-
-                try {
-                    timeSpentValue = Integer.parseInt(fields[1].trim()); // Time spent in minutes
-                } catch (NumberFormatException e) {
-                    // If the time value is not a valid number, skip this record
-                    return;
-                }
-
-                // Set the values for output key-value pairs
+                String urlStr = fields[0].trim();
+                Integer timeSpentValue = Integer.parseInt(fields[1].trim());
                 url.set(urlStr);
                 timeSpent.set(timeSpentValue);
 
-                // Emit the key-value pair: (url, time_spent)
                 context.write(url, timeSpent);
             }
         }
