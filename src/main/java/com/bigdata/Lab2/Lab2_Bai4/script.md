@@ -1,4 +1,9 @@
-/
+remember to `cd` to this project `cd BigDataa`
+
+```bash
+hdfs dfs -mkdir /Lab2/Bai4/
+hdfs dfs -mkdir /Lab2/Bai4/input
+```
 
 Bai4a
 ```bash
