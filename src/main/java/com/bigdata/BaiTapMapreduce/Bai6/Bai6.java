@@ -1,6 +1,6 @@
-package com.bigdata.Bai6;
+package com.bigdata.BaiTapMapreduce.Bai6;
 
-import com.bigdata.Bai1.Bai1a;
+import com.bigdata.BaiTapMapreduce.Bai1.Bai1a;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;

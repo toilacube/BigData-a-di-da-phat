@@ -1,6 +1,5 @@
-package com.bigdata.Bai3;
+package com.bigdata.BaiTapMapreduce.Bai3;
 
-import com.bigdata.Bai2.Bai2a;
 import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
@@ -8,10 +7,8 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;

@@ -1,6 +1,5 @@
-package com.bigdata.Bai4;
+package com.bigdata.BaiTapMapreduce.Bai4;
 
-import com.bigdata.Bai2.Bai2a;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.DoubleWritable;
@@ -14,7 +13,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.math.MathContext;
 import java.math.RoundingMode;
 

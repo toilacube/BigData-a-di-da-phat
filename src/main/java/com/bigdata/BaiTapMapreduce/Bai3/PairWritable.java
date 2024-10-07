@@ -1,4 +1,4 @@
-package com.bigdata.Bai3;
+package com.bigdata.BaiTapMapreduce.Bai3;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
