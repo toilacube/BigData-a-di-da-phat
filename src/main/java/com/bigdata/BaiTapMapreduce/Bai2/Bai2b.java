@@ -60,6 +60,7 @@ public class Bai2b {
         Job job = Job.getInstance(conf, "Sales count");
         job.setJarByClass(Bai2b.class);
         job.setMapperClass(MMapper.class);
+        job.setCombinerClass(RReducer.class);
         job.setReducerClass(RReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(DoubleWritable.class);
