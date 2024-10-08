@@ -4,7 +4,7 @@
 /DHQG-HN/CN
 /DHQG-HN/XD
 
-```aiignore
+```bash
 hdfs dfs -mkdir /DHQG-HCM
 hdfs dfs -mkdir /DHQG-HCM/UIT
 hdfs dfs -mkdir /DHQG-HCM/UEL

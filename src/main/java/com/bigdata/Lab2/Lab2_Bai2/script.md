@@ -1,4 +1,4 @@
-```aiignore
+```bash
 hdfs dfs -mkdir /Lab2/Bai2
 hdfs dfs -mkdir /Lab2/Bai2/input
 hdfs dfs -put ./song.txt /Lab2/Bai2/input
